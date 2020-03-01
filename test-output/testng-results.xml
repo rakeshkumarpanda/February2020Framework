@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Demo Website Link is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Input Form Tab is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Input Form Submit Link is clicked]]>
+    </line>
+    <line>
+      <![CDATA[First Name Field is entered with FN3]]>
+    </line>
+    <line>
+      <![CDATA[Last Name Field is entered with LN3]]>
+    </line>
+    <line>
+      <![CDATA[Email Field is entered with fn1@ln1.com]]>
+    </line>
+    <line>
+      <![CDATA[Phone number Field is entered with 9830828304]]>
+    </line>
+    <line>
+      <![CDATA[State Dropdown is selected Indiana]]>
+    </line>
+    <line>
+      <![CDATA[Page is scrolled down until Yes Radio Button]]>
+    </line>
+    <line>
+      <![CDATA[Yes Radio Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Selenium Easy Link is clicked]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-03-01T11:05:37 IST" name="Suite" finished-at="2020-03-01T11:06:04 IST" duration-ms="27539">
+    <groups>
+    </groups>
+    <test started-at="2020-03-01T11:05:37 IST" name="ChromeTest" finished-at="2020-03-01T11:06:04 IST" duration-ms="27539">
+      <class name="com.seleniumeasy.RunnerClass.DriverScript">
+        <test-method is-config="true" signature="browserLaunching(java.lang.String)[pri:0, instance:com.seleniumeasy.RunnerClass.DriverScript@1e730495]" started-at="2020-03-01T11:05:37 IST" name="browserLaunching" finished-at="2020-03-01T11:05:50 IST" duration-ms="13273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunching -->
+        <test-method is-config="true" signature="initClass()[pri:0, instance:com.seleniumeasy.RunnerClass.DriverScript@1e730495]" started-at="2020-03-01T11:05:50 IST" name="initClass" finished-at="2020-03-01T11:05:50 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClass -->
+        <test-method signature="sampleFormTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.seleniumeasy.RunnerClass.DriverScript@1e730495]" started-at="2020-03-01T11:05:50 IST" name="sampleFormTest" data-provider="SampleFormTestData" finished-at="2020-03-01T11:05:59 IST" duration-ms="8264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FN3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LN3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fn1@ln1.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9830828304]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Indiana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Demo Website Link is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Input Form Tab is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Input Form Submit Link is clicked]]>
+            </line>
+            <line>
+              <![CDATA[First Name Field is entered with FN3]]>
+            </line>
+            <line>
+              <![CDATA[Last Name Field is entered with LN3]]>
+            </line>
+            <line>
+              <![CDATA[Email Field is entered with fn1@ln1.com]]>
+            </line>
+            <line>
+              <![CDATA[Phone number Field is entered with 9830828304]]>
+            </line>
+            <line>
+              <![CDATA[State Dropdown is selected Indiana]]>
+            </line>
+            <line>
+              <![CDATA[Page is scrolled down until Yes Radio Button]]>
+            </line>
+            <line>
+              <![CDATA[Yes Radio Button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Selenium Easy Link is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sampleFormTest -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:com.seleniumeasy.RunnerClass.DriverScript@1e730495]" started-at="2020-03-01T11:05:59 IST" name="browserTearDown" finished-at="2020-03-01T11:06:04 IST" duration-ms="5791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- com.seleniumeasy.RunnerClass.DriverScript -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
