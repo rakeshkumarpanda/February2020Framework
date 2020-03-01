@@ -20,6 +20,7 @@ public class DriverScript extends BrowserHandling
 	{ 
 		businessFunctionality.submitForm(firstName, lastName, email, phone, state);
 		System.out.println("First Commit Successful");
+		System.out.println("Person2 Committed");
 	}
 
 }
